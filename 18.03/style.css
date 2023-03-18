@@ -1,0 +1,159 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+    background-color: #111827;
+    gap: 64px;
+}
+
+.caixa-img{
+    position: absolute;
+    width: 576px;
+    height: 476.48px;
+    top: 274px;
+    display: flex;
+    left: 125px;
+    flex-direction: row;
+}
+
+
+.formulario{
+    gap: 20px;
+    width: 480px;
+    height: 476px;
+    top: 274px;
+    left: 870px;
+    position: absolute;
+    flex-direction: column;
+    background-color: #F9F9FB;
+}
+
+.Tlogin{
+    width: 100px;
+    height: 47px;
+    left: 194px;
+    top: 55px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.caixa-email{
+    height: 48px;
+    width: 378px;
+    left: 36px;
+    top: 130px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    gap: 16px;
+    position: absolute;
+    align-items: center;
+
+    
+    background: rgba(113, 128, 185, 0.32);
+}
+
+.caixa-senha{
+    height: 48px;
+    width: 378px;
+    left: 36px;
+    top: 200px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    gap: 16px;
+    position: absolute;
+
+    
+    background: rgba(113, 128, 185, 0.32);
+}
+
+.linha{
+    position: absolute;
+    width: 124px;
+    height: 0px;
+    left: 780px;
+    top: 330px;
+    border: 2px solid rgba(0, 0, 0, 0.32);
+}
+
+.formtudo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 126px;
+    gap: 24px;
+    left: 40px;
+}
+
+.caixa-text{
+    width: 400px;
+    height: 48px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    gap: 12px;
+    padding: 12px 16px;
+
+}
+
+.envel{
+    position: absolute;
+    top: 143.25px;
+    left: 50px;
+}
+
+.cadel{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+.Blogin{
+    height: 48px;
+    width: 378px;
+    padding: 12px 16px 12px 16px;
+    gap: 16px;
+    background: #7180B9;
+    border-radius: 4px;
+    top: 268px;
+    left: 35px;
+    position: absolute;
+}
+
+.github{
+    position: absolute;
+    gap: 16px;
+    width: 244px;
+    height: 48px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    left: 1038px;
+    top: 648px;
+
+    background: #7180B9;
+}
+
+
+.vetor-git{
+    position: absolute;
+    left: -58px;
+    right: 15.62%;
+    top: 11px;
+    bottom: 6.25%;
+}
+.text-git{
+    font-size: 12px;
+    line-height: 19px;
+    left: 14.5px;
+    font-weight: 600;
+}
